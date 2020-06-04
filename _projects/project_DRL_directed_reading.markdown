@@ -1,10 +1,24 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
+title: Directed reading on Deep Reinforcement Learning
+description: 'Theory, implementation and experimentation on the following topic: Maximum Entropy framework, Classical DRL, RL software engineering'
+img: /assets/img/TaxonomyDRLgithub.png
+redirect: https://github.com/RedLeader962/LectureDirigeDRLimplementation
 importance: 2
 ---
+
+##### [> Directed reading on **Deep Reinforcement Learning**](https://github.com/RedLeader962/LectureDirigeDRLimplementation): 
+Theory, implementation and experimentation on the following topic:
+- **Maximum Entropy framework:** 
+    - Soft Actor-Critic 
+- **Classical DRL:**
+    - Actor-Critic
+    - REINFORCE
+- **RL software engineering:**
+    - A reflection on design, architecture and implementation details
+
+---
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

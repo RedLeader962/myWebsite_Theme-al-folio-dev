@@ -1,14 +1,20 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: /assets/img/1.jpg
-importance: 3
+title: Applied Reinforcement Learning lecture slide redaction and design
+description: for the class GLO-7050 Applied Machine Learning at Université Laval. (In french)
+img: /assets/img/Projet_slide_RL_2.png
+redirect: https://github.com/RedLeader962/GLO-7050-Module-Apprentissage-par-renforcement
+importance: 1
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+##### [> Applied Reinforcement Learning lecture slide project](https://github.com/RedLeader962/GLO-7050-Module-Apprentissage-par-renforcement) 
+for the class _GLO-7050 - Applied Machine Learning_ at _Université Laval_ 
+
+- Topic selection and structure
+- Graphic design using TikZ/PGF
+- Original slide template design in LaTeX-Beamer
+
+---
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
