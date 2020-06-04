@@ -20,7 +20,7 @@ social: true
  
     > "Poor data, inexplicable code or rushed deployment can easily lead to AI systems that are not worth celebrating.”- [Abhishek Gupta](https://atg-abhishek.github.io) at the [World Economic Forum](https://www.weforum.org).
  
- * Integrity 
+ * Personal integrity 
  * Triving toward excellence
  * Black Live Matter
  

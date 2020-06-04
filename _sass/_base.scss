@@ -47,19 +47,31 @@ a, table.table a {
 
 // Navbar customization
 
+.logo-img {
+  // to black
+  filter: invert(1);
+  // or to blue
+  // filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+}
+
 .navbar {
-  box-shadow: none;
+  box-shadow: true; //none
   border-bottom: 1px solid $grey-color-light;
+//   background-color: $white;
+  background-color: $grey-color-dark;
   opacity: 0.95;
 }
 .navbar.navbar-light {
   // Remove link decoration
   a {
+    color: $white;
     &:hover {
       text-decoration: none;
+      color: $theme-color;
     }
   }
   .navbar-nav .nav-item .nav-link {
+    color: $white;
     &:hover {
       color: $theme-color;
     }
@@ -67,13 +79,16 @@ a, table.table a {
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
 //       color: $theme-color;
-      color: darken($theme-color, 70%);
+//       color: darken($theme-color, 70%);
+      color: $white;
       font-weight: bolder;
       &:hover {
         color: $theme-color;
       }
   }
   .navbar-brand {
+//     color: $white;
+    font-weight-lighter
       &:hover {
         color: $theme-color;
       }
@@ -81,7 +96,8 @@ a, table.table a {
   .contact-icon {
     font-size: 1.25rem;
     a {
-      color: lighten($grey-color, 43%);
+//       color: lighten($grey-color, 43%);
+      color: lighten($grey-color-dark, 7%);
       &:hover {
         color: $theme-color;
       }
@@ -182,10 +198,10 @@ footer.sticky-bottom {
   background-color: $grey-color-dark;
   font-size: 0.75rem;
   .container {
-//     padding-top: 40px;
-//     padding-bottom: 40px;
-    padding-top: 11px;
-    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+//     padding-top: 11px;
+//     padding-bottom: 10px;
     text-align: center;
   }
   h1 {

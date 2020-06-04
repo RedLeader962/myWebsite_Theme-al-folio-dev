@@ -8,7 +8,7 @@
     <!--        {% endif %}-->
     <!--    </div>-->
     <div class="container">
-        <!--        <p>-->
+        {% if site.show_social_icons != true %}
         <h1>
             <!--            {%- if site.author -%}-->
             <!--            {{ site.author | escape }}-->
@@ -27,10 +27,11 @@
 
             {%- include social.html -%}
         </h1>
-        <!--        </p>-->
+        {% endif %}
         &copy; Copyright {{ site.time | date: '%Y' }} {{ site.title }}.
         &nbsp <!-- spacing -->
-        &copy; Copyright 2018 <a href="https://github.com/distillpub/template/blob/master/AUTHORS">The Distill Template Authors.</a>
+        &copy; Copyright 2018 <a href="https://github.com/distillpub/template/blob/master/AUTHORS">The Distill Template
+        Authors.</a>
         &nbsp <!-- spacing -->
         {{ site.footer_text }}
         <br/>
@@ -42,16 +43,17 @@
 {% else %}
 <footer class="sticky-bottom mt-5">
     <div class="container">
-<!--        <h1>-->
-<!--            {% assign name = site.title | split: ' ' %}-->
-<!--            <span class="font-weight-bold">{{ name | first }}</span>-->
-<!--            {{ name | last }}-->
-<!--            &nbsp&nbsp &lt;!&ndash; spacing &ndash;&gt;-->
-<!--            {%- include social.html -%}-->
-<!--        </h1>-->
+        <!--        <h1>-->
+        <!--            {% assign name = site.title | split: ' ' %}-->
+        <!--            <span class="font-weight-bold">{{ name | first }}</span>-->
+        <!--            {{ name | last }}-->
+        <!--            &nbsp&nbsp &lt;!&ndash; spacing &ndash;&gt;-->
+        <!--            {%- include social.html -%}-->
+        <!--        </h1>-->
         &copy; Copyright {{ site.time | date: '%Y' }} {{ site.title }}.
         &nbsp <!-- spacing -->
-        &copy; Copyright 2018 <a href="https://github.com/distillpub/template/blob/master/AUTHORS">The Distill Template Authors.</a>
+        &copy; Copyright 2018 <a href="https://github.com/distillpub/template/blob/master/AUTHORS">The Distill Template
+        Authors.</a>
         &nbsp <!-- spacing -->
         {{ site.footer_text }}
         <br/>
