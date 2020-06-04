@@ -73,10 +73,15 @@ a, table.table a {
         color: $theme-color;
       }
   }
+  .navbar-brand {
+      &:hover {
+        color: $theme-color;
+      }
+  }
   .contact-icon {
-    font-size: 2rem;
+    font-size: 1.25rem;
     a {
-      color: $grey-color-dark;
+      color: lighten($grey-color, 43%);
       &:hover {
         color: $theme-color;
       }
@@ -153,8 +158,13 @@ footer.fixed-bottom {
   background-color: $grey-color-dark;
   font-size: 0.75rem;
   .container {
-    padding-top: 9px;
-    padding-bottom: 8px;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  h1 {
+    color: $white;
+    font-size: 1.25rem;
   }
   a {
     color: white;
@@ -166,12 +176,36 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid $grey-color-light;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+//   border-top: 1px solid $grey-color-light;
+//   color: $grey-color;
+  color: lighten($grey-color, 25%);
+  background-color: $grey-color-dark;
+  font-size: 0.75rem;
+  .container {
+//     padding-top: 40px;
+//     padding-bottom: 40px;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  h1 {
+    color: $white;
+    font-size: 1.25rem;
+  }
+  a {
+//     color: darken($grey-color, 20%);
+    color: white;
+    &:hover {
+      color: lighten($theme-color, 25%);
+      text-decoration: none;
+    }
+  }
 }
 
+// About page
+header.about {
+    padding-bottom: 2rem;
+}
 
 // Blog
 

@@ -6,13 +6,18 @@
         <div class="container">
             {% if page.title != "about" %}
             {% assign name = site.title | split: ' ' %}
-            <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/"><span
-                    class="font-weight-bold">{{ name | first }}</span> {{ name | last }}</a>
-            {% elsif site.show_social_icons %}
-            <!-- Social Icons -->
+            <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
+                <span class="font-weight-bold">
+                    <img src="{{ 'favicon-safari-pinned-tab.svg' | prepend: '/assets/img/' | relative_url }}"
+                         width="20"/>
+                    {{ name | first }}
+                </span> {{ name | last }}
+            </a>
+            {% if site.show_social_icons %}
             <div class="row ml-1 ml-sm-0">
                 {% include social.html %}
             </div>
+            {% endif %}
             {% endif %}
             <!-- Navbar Toogle -->
             <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse"
@@ -26,14 +31,14 @@
             <div class="collapse navbar-collapse text-right" id="navbarNav">
                 <ul class="navbar-nav ml-auto flex-nowrap">
                     <!-- About -->
-                    <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
-                        <a class="nav-link" href="{{ '/' | relative_url }}">
-                            about
-                            {% if page.title == "about" %}
-                            <span class="sr-only">(current)</span>
-                            {% endif %}
-                        </a>
-                    </li>
+                    <!--                    <li class="nav-item {% if page.title == 'about' %}active{% endif %}">-->
+                    <!--                        <a class="nav-link" href="{{ '/' | relative_url }}">-->
+                    <!--                            about-->
+                    <!--                            {% if page.title == "about" %}-->
+                    <!--                            <span class="sr-only">(current)</span>-->
+                    <!--                            {% endif %}-->
+                    <!--                        </a>-->
+                    <!--                    </li>-->
                     {% if site.blog_name %}
                     <!-- Blog -->
                     <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">

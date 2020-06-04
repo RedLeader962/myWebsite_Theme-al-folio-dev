@@ -1,21 +1,63 @@
 {% if site.footer_fixed %}
 <footer class="fixed-bottom">
-  <div class="container mt-0">
-    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.title }}.
-    {{ site.footer_text }}
-    {% if site.last_updated %}
-    Last updated: {{ "now" | date: '%B %d, %Y' }}.
-    {% endif %}
-  </div>
+    <!--    <div class="container mt-0">-->
+    <!--        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.title }}.-->
+    <!--        {{ site.footer_text }}-->
+    <!--        {% if site.last_updated %}-->
+    <!--        Last updated: {{ "now" | date: '%B %d, %Y' }}.-->
+    <!--        {% endif %}-->
+    <!--    </div>-->
+    <div class="container">
+        <!--        <p>-->
+        <h1>
+            <!--            {%- if site.author -%}-->
+            <!--            {{ site.author | escape }}-->
+            <!--            {%- else -%}-->
+            <!--            {{ site.title | escape }}-->
+            <!--            {%- endif -%}-->
+            {% assign name = site.title | split: ' ' %}
+            <!--            <img src="{{ 'favicon-safari-pinned-tab.svg' | prepend: '/assets/img/' | relative_url }}" width="20"/>-->
+            <span class="font-weight-bold">{{ name | first }}</span>
+            {{ name | last }}
+            <!--        {%- if site.email -%}-->
+            <!--        <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>-->
+            <!--        {%- endif -%}-->
+
+            &nbsp&nbsp <!-- spacing -->
+
+            {%- include social.html -%}
+        </h1>
+        <!--        </p>-->
+        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.title }}.
+        &nbsp <!-- spacing -->
+        &copy; Copyright 2018 <a href="https://github.com/distillpub/template/blob/master/AUTHORS">The Distill Template Authors.</a>
+        &nbsp <!-- spacing -->
+        {{ site.footer_text }}
+        <br/>
+        {% if site.last_updated %}
+        Last updated: {{ "now" | date: '%B %d, %Y' }}.
+        {% endif %}
+    </div>
 </footer>
 {% else %}
 <footer class="sticky-bottom mt-5">
-  <div class="container">
-    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.title }}.
-    {{ site.footer_text }}
-    {% if site.last_updated %}
-    Last updated: {{ "now" | date: '%B %d, %Y' }}.
-    {% endif %}
-  </div>
+    <div class="container">
+<!--        <h1>-->
+<!--            {% assign name = site.title | split: ' ' %}-->
+<!--            <span class="font-weight-bold">{{ name | first }}</span>-->
+<!--            {{ name | last }}-->
+<!--            &nbsp&nbsp &lt;!&ndash; spacing &ndash;&gt;-->
+<!--            {%- include social.html -%}-->
+<!--        </h1>-->
+        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.title }}.
+        &nbsp <!-- spacing -->
+        &copy; Copyright 2018 <a href="https://github.com/distillpub/template/blob/master/AUTHORS">The Distill Template Authors.</a>
+        &nbsp <!-- spacing -->
+        {{ site.footer_text }}
+        <br/>
+        {% if site.last_updated %}
+        Last updated: {{ "now" | date: '%B %d, %Y' }}.
+        {% endif %}
+    </div>
 </footer>
 {% endif %}

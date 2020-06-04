@@ -2,11 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Proud veteran turned computer scientist passionate in Ai
-
-[//]: # (description: Computer science (honor) student at <a href="www.ulaval.ca">Université Laval</a> passionate about AI)
-[//]: # (description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.)
-[//]: # (luc.coupal.1@ulaval.ca)
+description: Proud veteran turned <b>computer scientist</b> passionate about <b>AI</b>
 
 profile:
   align: right
@@ -19,13 +15,16 @@ social: true
 ---
 
 ### Core values:
- * Integrity 
- * Excellence 
- * Ethical Ai
  * Ai for good
+ * Ethical AI: 
+ 
+    > "Poor data, inexplicable code or rushed deployment can easily lead to AI systems that are not worth celebrating.”- [Abhishek Gupta](https://atg-abhishek.github.io) at the [World Economic Forum](https://www.weforum.org).
+ 
+ * Integrity 
+ * Triving toward excellence
  * Black Live Matter
  
-and yes, I do not compromise on none of those for no reason. 
+and yes, I wont compromise on any of those and for no reason. 
 
 ### Main interest:
 Decision making under incertitude, Deep Reinforcement Learning, Maximum Entropy RL, sport, music, laughing until it hurts and perpetually seeking breathtaking views. 

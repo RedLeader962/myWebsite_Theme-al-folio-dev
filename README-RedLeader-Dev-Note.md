@@ -1,11 +1,25 @@
 #### Ressources:
 
-- [Jekyll](https://jekyllrb.com/) 
-- Originally based on the [\*folio theme](https://github.com/bogoli/-folio) published by [Lia Bogoev](http://liabogoev.com) 
-- The emphasis is on whitespace, transparency, and academic usage: [theme demo](https://alshedivat.github.io/al-folio/).
-- [Jekyll tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
-- Why Jekyll? [karpathy blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
+##### The al-folio Theme
 
+- [theme demo](https://alshedivat.github.io/al-folio/) | [theme GitHub/dev branch](https://github.com/alshedivat/al-folio/tree/dev)
+- Originally based on the [\*folio theme](https://github.com/bogoli/-folio) published by [Lia Bogoev](http://liabogoev.com) 
+- Example of use: 
+    - [Probabilistic Graphical Models • Spring 2019 • Carnegie Mellon University](https://sailinglab.github.io/pgm-spring-2019/) 
+    - [GitHub of the PGM-spring-2019 course](https://github.com/sailinglab/pgm-spring-2019)
+
+##### Jekyll:
+
+- Why Jekyll? [karpathy blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
+- [Jekyll](https://jekyllrb.com/) 
+- [Jekyll tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
+
+##### Dev ressources
+
+- [HTML references](https://www.w3schools.com/tags/default.asp) at W3Schools
+- [CSS references](https://www.w3schools.com/cssref/default.asp) at W3Schools
+- [Javascript references](https://www.w3schools.com/jsref/jsref_reference.asp) at W3Schools
+- [Yaml](https://symfony.com/doc/current/components/yaml/yaml_format.html)
 
 ---
 
