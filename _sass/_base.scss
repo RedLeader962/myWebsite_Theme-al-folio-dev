@@ -86,13 +86,13 @@ a, table.table a {
         color: $theme-color;
       }
   }
-  .navbar-brand {
-//     color: $white;
-    font-weight-lighter
-      &:hover {
-        color: $theme-color;
-      }
-  }
+//   .navbar-brand {
+// //     color: $white;
+//     font-weight-lighter
+//       &:hover {
+//         color: $theme-color;
+//       }
+//   }
   .contact-icon {
     font-size: 1.25rem;
     a {
@@ -110,7 +110,13 @@ a, table.table a {
     display: block;
     width: 22px;
     height: 2px;
-    background-color: $grey-color-dark;
+//     background-color: $grey-color-dark;
+    background-color: $white;
+    &:hover {
+//         background-color: $theme-color;
+        background-color: darken($theme-color, 20%);
+//         background-color: $white;
+      }
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
@@ -191,26 +197,32 @@ footer.fixed-bottom {
   }
 }
 
+
+
 footer.sticky-bottom {
-//   border-top: 1px solid $grey-color-light;
-//   color: $grey-color;
-  color: lighten($grey-color, 25%);
-  background-color: $grey-color-dark;
+  border-top: 1px solid $grey-color-light;
+  color: $grey-color;
   font-size: 0.75rem;
   .container {
-    padding-top: 40px;
-    padding-bottom: 40px;
-//     padding-top: 11px;
-//     padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
+  }
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .col, [class*="col-"] {
+    padding-right: 5px;
+    padding-left: 5px;
   }
   h1 {
     color: $white;
     font-size: 1.25rem;
   }
   a {
-//     color: darken($grey-color, 20%);
-    color: white;
+    color: darken($grey-color, 20%);
+//     color: white;
     &:hover {
       color: lighten($theme-color, 25%);
       text-decoration: none;
@@ -219,8 +231,22 @@ footer.sticky-bottom {
 }
 
 // About page
-header.about {
-    padding-bottom: 2rem;
+.about-me {
+    header {
+        padding-bottom: 2rem;
+        .post-description {
+//             padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    }
+    .about-newsfeed {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .about-social {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 
 // Blog
@@ -287,7 +313,7 @@ header.about {
 .projects {
   .grid-item {
 //     width: 250px;
-    width: 380px;
+    width: 364px;
     margin-bottom: 10px;
     a {
       color: black;
