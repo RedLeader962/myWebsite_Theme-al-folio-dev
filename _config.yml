@@ -106,7 +106,7 @@ kramdown:
 
 # Includes & excludes
 include: ['_pages']
-exclude: [vendor]
+exclude: [vendor, node_modules]
 
 # Plug-ins
 plugins:
@@ -114,7 +114,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll/scholar
   - jemoji
-  # - bootstrap
+  - bootstrap
   # - material-sass
 
 # -----------------------------------------------------------------------------

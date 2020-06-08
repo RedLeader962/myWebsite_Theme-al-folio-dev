@@ -1,22 +1,77 @@
 ---
 layout: distill
 title: A reflection on design, architecture and implementation details
-description: 'This essay is my journey through that reflection process and the lessons I have learned on the importance of design decisions, architectural decisions and implementation details in Deep Reinforcement Learning policy gradient class algorithms.'
-date: 2019-12-01
+description: This essay is my journey through that reflection process and the lessons I have learned on the importance of design decisions, architectural decisions and implementation details in Deep Reinforcement Learning policy gradient class algorithms.
 
 authors:
   - name: Luc Coupal
     url: "https://redleader962.github.io"
     affiliations:
       name: Université Laval
+      url: https://www.ulaval.ca
 
----
 bibliography: ProjetDeLecture2019.bib
 
-Under the supervision of:
-Professor [Brahim Chaib-draa](https://www.fsg.ulaval.ca/departements/professeurs/brahim-chaib-draa-166/)
-Directeur du programme de baccalauréat en génie logiciel de l’Université Laval Québec, QC, Canada
-Brahim.Chaib-draa@ift.ulaval.ca 
+_styles: >
+    .supervisorDbyline {
+        contain: style;
+        font-size: 0.8rem;
+        line-height: 1.8em;
+        min-height: 1.8em;
+        padding: 0rem 0;
+        border-down: 1px solid rgba(0, 0, 0, 0.1);
+        margin-bottom: -2.75em;
+        margin-top: -0.5em;
+    }
+    .supervisorDbyline h3 {
+        font-size: 0.6rem;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.5);
+        text-transform: uppercase;
+        padding-bottom: 0em 0;
+        line-height: 1.8em;
+        min-height: 1.8em;
+    }
+    .supervisorDbyline a {
+      color: rgba(0, 0, 0, 0.8);
+      text-decoration: none;
+      border-bottom: none;
+    }
+    .supervisorDbyline a:hover {
+      text-decoration: none;
+      color: #828282;
+      border-bottom: none;
+    }
+    .supervisorThe {
+      font-weight: 500;
+    }
+---
+
+<div class="container supervisorDbyline">
+    <div class="row">
+        <div class="col">
+            <div class="supervisorDbylineH3">
+            Supervisor
+            </div> 
+        </div>
+        <!-- Force next columns to break to new line -->
+        <div class="w-100"></div>
+        <div class="col">
+            Professor 
+                <a href="https://www.fsg.ulaval.ca/departements/professeurs/brahim-chaib-draa-166/">
+                  <span class="supervisorThe"> Brahim Chaib-draa </span>
+                </a > 
+        </div>
+        <div class="col-md-8">
+            Directeur du programme de baccalauréat en génie logiciel à l'<a href="https://www.ulaval.ca">
+            Université Laval
+            </a> 
+        </div>
+    </div>
+</div>
+
+---
+
 
 
 A quest for answers

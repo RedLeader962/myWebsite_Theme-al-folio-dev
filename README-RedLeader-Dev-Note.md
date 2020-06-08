@@ -7,6 +7,12 @@
 - Example of use: 
     - [Probabilistic Graphical Models • Spring 2019 • Carnegie Mellon University](https://sailinglab.github.io/pgm-spring-2019/) 
     - [GitHub of the PGM-spring-2019 course](https://github.com/sailinglab/pgm-spring-2019)
+    - [PGM-spring-2019 course - Lecture Notes Template](https://sailinglab.github.io/pgm-spring-2019/notes/lecture-notes-template/)
+    - [PGM-spring-2019 course - Lecture Notes Template | GitHub](https://github.com/sailinglab/pgm-spring-2019/blob/master/_posts/2019-01-09-lecture-notes-template.md)
+    
+##### Check for references of _Distill layout_ implementation:
+- [al-folio dev branch](https://github.com/alshedivat/al-folio/blob/dev/_layouts/distill.html)
+- [al-folio mod in pgm-spring-2019](https://github.com/sailinglab/pgm-spring-2019/blob/master/_layouts/distill.html)
 
 ##### Jekyll:
 
@@ -32,6 +38,10 @@ $ bundle install
 Start **server for offline dev**
 ```
 $ bundle exec jekyll serve
+```
+Shortcut
+```
+$ bundle install && bundle exec jekyll serve
 ```
 
 ---

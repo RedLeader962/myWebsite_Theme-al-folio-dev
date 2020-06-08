@@ -1,8 +1,10 @@
 ---
+published: false
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Sudoku solver by Simulated annealing
+description: Combinatorial optimization algorithm study. Implementation in python of Simulated annealing for solving a Sudoku. 
+img: 
+redirect: https://unsplash.com
 importance: 3
 ---
 

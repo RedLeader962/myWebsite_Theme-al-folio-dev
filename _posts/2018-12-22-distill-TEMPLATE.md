@@ -1,4 +1,5 @@
 ---
+published: true
 layout: distill
 title: a distill-style blog post
 description: an example of a distill-style blog post and main elements
@@ -17,7 +18,7 @@ authors:
     url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
     affiliations:
       name: IAS, Princeton
-
+      
 bibliography: 2018-12-22-distill.bib
 
 # Below is an example of injecting additional post-specific styles.
