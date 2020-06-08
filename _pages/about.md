@@ -13,55 +13,57 @@ news: false
 social: true
 ---
 
-### Core values:
- * Ai for good
- * Ethical AI: 
-<p style="text-align:center; padding-bottom: 0px; padding-top: 0px; padding-left: 50px; padding-right: 50px;">
-"Poor data, inexplicable code or rushed deployment can easily lead to AI systems that are not worth celebrating.”- 
-<a href="https://atg-abhishek.github.io" target="_blank">Abhishek Gupta</a>
-at the
-<a href="https://www.weforum.org" target="_blank">World Economic Forum</a>
-</p>
- * Personal integrity 
- * Triving toward excellence
- * Black Live Matter
- 
-and yes, I wont compromise on any of those for no reason. 
-
- 
 ### Main interest:
 Decision making under incertitude, Deep Reinforcement Learning, Maximum Entropy RL, sport, music, laughing until it hurts and perpetually seeking breathtaking views. 
+
+### Core values:
+<p style="text-align: center" class="font-weight-bold">
+Ethical AI<br>
+Ai for good<br>
+Personal integrity<br>
+Triving toward excellence<br>
+Black Live Matter<br>
+</p>
+
+<!-- 
+<blockquote class="text-center">
+<p class="d-md-inline">"Poor data, inexplicable code or rushed deployment can easily lead to AI systems <br> that are not worth celebrating.”</p> 
+<footer class="blockquote-footer"><cite title="Source Title"><a href="https://atg-abhishek.github.io" target="_blank">Abhishek Gupta</a></cite> at the <a href="https://www.weforum.org" target="_blank">World Economic Forum</a></footer>
+</blockquote>
+---
+ -->
+
 
 ### My goal 
 Explaining idea and concept in the most intuitive way using drawing and funy example. 
 
-### Skills
-##### Language:
- * Speak english and french
- * Dream sometime in Python, LaTeX, C++
- 
-##### Software enginering:
-
-
-
-<div class="container">
+<div style="padding-top: 1em; padding-bottom: 1em">
+<div class="card border-dark mb-3">
+  <div class="card-header">Skills</div>
+  <div class="card-body text-dark">
+    <h5 class="card-title">Language</h5>
+    <p style="margin-left: 1em" class="card-text">Speak english and french <br> Dream sometime in Python, LaTeX, C++</p>
+    <h5 class="card-title">Software enginering</h5>
+    <div class="container card-text">
     <div class="row justify-content-center">
         <div class="col">
-            Python [TensorFlow, Numpy, Matplotlib] <br>
-            Test-Driven-Developement: Pytest, Mock <br>
-            Continuous Integration: TeamCity <br>
-            Parallel/distributed computing: Ray[RLlib, tune]<br>
+            <b>Python</b> [TensorFlow, Numpy, Matplotlib] <br>
+            <b>Test-Driven-Developement</b>: Pytest, Mock <br>
+            <b>Continuous Integration</b>: TeamCity <br>
+            <b>Parallel/distributed computing</b>: Ray[RLlib, tune]<br>
         </div>
         <div class="col">
-            Project planning & control: YouTrack, Trello <br>
-            Methodology: Scrumm & Agile <br>
-            LaTeX/TeX [TikZ/PGF, Beamer, Algorithm2e] <br>
-            Semantic database: SPARQL, RDF, OWL <br>
+            <b>Project planning & control</b>: YouTrack, Trello <br>
+            Methodology <b>Scrumm</b> and <b>Agile</b> <br>
+            <b>LaTeX/TeX</b> [TikZ/PGF, Beamer, Algorithm2e] <br>
+            <b>Semantic database</b>: SPARQL, RDF, OWL <br>
         </div>
     </div>
+    </div>
+  </div>
 </div>
- 
---- 
+</div>
+
 ### History 
 ##### Present:
  * Last year bachelor student (honor) in computer scientists at <a href="https://www.ulaval.ca" target="_blank">University Laval</a> 
