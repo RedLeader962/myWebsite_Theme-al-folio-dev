@@ -55,7 +55,7 @@ a, table.table a {
 }
 
 .navbar {
-  box-shadow: true; //none
+  box-shadow: True; //none
   border-bottom: 1px solid $grey-color-light;
 //   background-color: $white;
   background-color: $grey-color-dark;
@@ -233,7 +233,7 @@ footer.sticky-bottom {
 // About page
 .about-me {
     header {
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
         .post-description {
 //             padding-top: 30px;
             padding-bottom: 30px;
@@ -248,6 +248,12 @@ footer.sticky-bottom {
         padding-top: 30px;
         padding-bottom: 30px;
     }
+  article h3 {
+    border-bottom: 1px solid $text-color;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
+  }
 }
 
 // Blog

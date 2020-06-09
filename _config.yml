@@ -47,8 +47,8 @@ publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 
-contact_note: > # this means to ignore newlines until "google_analytics:" # You can even add a little note about which of these is the best way to reach you.
-  BlackLivesMatter
+contact_note: > # You can even add a little note about which of these is the best way to reach you.
+  Feel free to reach out, I don’t bite.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -58,9 +58,9 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 # #Tale of a AI computer scientist, Full disclosure on my AI adventure, A learning journey in the AI world
 
-blog_menu_name: Tale from a computer scientist in the AI world # (!) required. Standard: blog
-blog_name: Tale from a computer scientist in the AI world # (!) your blog must have a name for it to show up in the nav bar
-blog_description: My journal, my point of vue, my journey with it's ups and down, full disclosure
+blog_menu_name: Tales from a computer scientist in the AI world # (!) required. Standard: blog
+blog_name: Tales from a computer scientist in the AI world # (!) your blog must have a name for it to show up in the nav bar
+blog_description: My journal, my point of vue, my journey with it's ups, downs and full disclosure.
 permalink: /blog/:year/:title/
 
 # Pagination

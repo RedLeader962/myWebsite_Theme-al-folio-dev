@@ -1,4 +1,5 @@
 ---
+published: false
 layout: distill
 title: A reflection on design, architecture and implementation details
 description: This essay is my journey through that reflection process and the lessons I have learned on the importance of design decisions, architectural decisions and implementation details in Deep Reinforcement Learning policy gradient class algorithms.

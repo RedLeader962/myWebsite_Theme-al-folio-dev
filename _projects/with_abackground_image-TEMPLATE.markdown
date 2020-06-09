@@ -13,6 +13,32 @@ Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
+---
+
+# bonjour karen
+To give your project a background in the portfolio page, just add the img tag to the front matter like so. To give your project a background in the portfolio page, just add the img tag to the front matter like so.
+
+#####  bonjour karen
+To give your project a background in the **portfolio page**, just add the _img tag_ to the front matter like so. To give your project a background in the portfolio page, just add the img tag to the front matter like so.
+
+#####  bonjour karen
+To give your project a background in the portfolio page, just add the img tag to the front matter like so. To give your project a background in the portfolio page, just add the img tag to the front matter like so.
+
+---
+
+## bonjour karen
+To give your project a background in the portfolio page, just add the img tag to the front matter like so. To give your project a background in the portfolio page, just add the img tag to the front matter like so.
+
+### bonjour karen
+To give your project a background in the portfolio page, just add the img tag to the front matter like so. To give your project a background in the portfolio page, just add the img tag to the front matter like so.
+
+#### bonjour karen
+To give your project a background in the portfolio page, just add the img tag to the front matter like so. To give your project a background in the portfolio page, just add the img tag to the front matter like so.
+
+#####  bonjour karen
+To give your project a background in the portfolio page, just add the img tag to the front matter like so. To give your project a background in the portfolio page, just add the img tag to the front matter like so.
+
+
     ---
     layout: page
     title: project
