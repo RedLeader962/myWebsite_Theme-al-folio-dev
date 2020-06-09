@@ -13,19 +13,38 @@ news: false
 social: true
 ---
 
-### Main interest:
+#### Main interest:
 Decision making under incertitude, Deep Reinforcement Learning, Maximum Entropy RL, sport, music, laughing until it hurts and perpetually seeking breathtaking views. 
 
-### Core values:
-<p style="text-align: center" class="font-weight-bold">
-Ethical AI<br>
-Ai for good<br>
-Personal integrity<br>
-Triving toward excellence<br>
-Black Live Matter<br>
-</p>
+#### Core values:
+
+<dl style="padding-left: 1em; padding-right: 0em;" class="row">
+  <dt class="col-md-3">Ai for good</dt> <dd class="col-xl-9">
+     Humanity fisrt, then computer science, not the other way around <!-- then profit or building cool stuff -->
+  </dd>
+  <dt class="col-md-3">Ethical AI</dt> <dd class="col-xl-9">
+    "Poor data, inexplicable code or rushed deployment can easily lead to AI systems that are not worth celebrating.”
+    <span>- <a href="https://atg-abhishek.github.io" target="_blank">Abhishek Gupta</a> <!-- at the <a href="https://www.weforum.org" target="_blank">World Economic Forum</a> --></span> 
+  </dd>
+  <dt class="col-md-3 border-md-bottom">Integrity</dt> <dd class="col-xl-9">
+        ... without compromise
+  </dd>
+  <dt class="col-md-3">Toward excellence</dt> <dd class="col-xl-9">
+        Better to set the bar to high and fail then setting it to low and susceed
+  </dd>
+  <dt class="col-md-3">Black Live Matter</dt> <dd class="col-xl-9">
+        Today, tomorow and every day after that
+  </dd>
+</dl>
 
 <!-- 
+<p style="text-align: center" class="font-weight-bold">
+Ethical AI<br>
+Ai for good: Humanity fisrt, then computer science then profit or building cool stuff<br> 
+Integrity & acountability<br>
+Toward excellence: it's better to set the bar to high and fail then setting it to low and susceed<br>
+Black Live Matter: today, tomorow and every day after that<br>
+</p>
 <blockquote class="text-center">
 <p class="d-md-inline">"Poor data, inexplicable code or rushed deployment can easily lead to AI systems <br> that are not worth celebrating.”</p> 
 <footer class="blockquote-footer"><cite title="Source Title"><a href="https://atg-abhishek.github.io" target="_blank">Abhishek Gupta</a></cite> at the <a href="https://www.weforum.org" target="_blank">World Economic Forum</a></footer>
@@ -34,7 +53,7 @@ Black Live Matter<br>
  -->
 
 
-### My goal 
+#### My goal 
 Explaining idea and concept in the most intuitive way using drawing and funy example. 
 
 <div style="padding-top: 1em; padding-bottom: 1em">
